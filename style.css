@@ -65,7 +65,7 @@ span{
     padding-left: 20px;
     border: 0px;
     border-radius: 7px;
-    color: #0000004D;
+    color: #bdbdbd;
     font-weight: bolder;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
@@ -83,4 +83,12 @@ span{
     height: 44px;
     margin-bottom: 50px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e07e05;
+    color: rgb(126, 123, 123);
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
 }
